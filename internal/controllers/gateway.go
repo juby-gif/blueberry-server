@@ -6,7 +6,7 @@ import (
 
 	"github.com/juby-gif/blueberry-server/utils"
 	"github.com/juby-gif/blueberry-server/utils/models"
-	"github.com/patrickmn/go-cache"
+	cache "github.com/patrickmn/go-cache"
 )
 
 func (c *Controller) postRegister(w http.ResponseWriter, r *http.Request) {
